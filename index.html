@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpStock - Controle de Estoque</title>
+    <link rel="stylesheet" href="src/home.css">
+    <script src="src/Home_scripts.js"></script>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo-container">
+            <img src="src/imagens/logo.jpeg" alt="SimpStock" class="logo">
+        </div>
+        <nav class="navbar">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="src/Sobre_Nos.html" class="nav-link">Sobre Nós</a>
+            <a href="src/Central_de_Ajuda.html" class="nav-link">Ajuda</a>
+            <a href="src/Login.html" class="nav-link">Login</a>
+        </nav>
+    </header>
+
+    <!-- Seção Principal -->
+    <main>
+        <!-- Introdução -->
+        <section class="intro">
+            <div class="intro-text">
+                <h1 class="titulo-principal">SimpStock</h1>
+                <h2 class="sub-titulo">Controle de Estoque</h2>
+                <p class="descrição">O sistema de controle de estoque que simplifica o seu negócio.<br>Gerencie quantos produtos quiser com facilidade e sem pagar nada!</p>
+                <h3 class="destaque">TOTALMENTE GRATUITO!</h3>
+                <a href="src/Login.html" class="cta-button">Clique aqui para se registrar!</a>
+            </div>
+            <div class="intro-image">
+                <img src="src/imagens/Estoque.jpg" alt="Demonstração de Estoque">
+            </div>
+        </section>
+        
+
+        <!-- Depoimentos -->
+        <section class="Depoimentos">
+            <div class="dep1">
+                <p>“Antes da SimpStock eu tinha que controlar tudo na mão e perdia muito tempo. Agora é muito mais prático porque tudo é automatizado.”</p>
+                <p><strong>Wesley Bispo Santos Silva Cabral</strong><br>Proprietário da Wesley Clothes</p>
+            </div>
+            <div class="dep2">
+                <p>“O SimpStock transformou a forma como gerenciamos nosso estoque. A plataforma é fácil de usar e tem nos ajudado a economizar tempo e reduzir erros.”</p>
+                <p><strong>Wesley Bispo Santos Silva Cabral</strong><br>Proprietário da Wesley Clothes</p>
+            </div>
+            <div class="dep3">
+                <p>“Desde que começamos a usar o SimpStock, nossa gestão de estoque nunca foi tão precisa. A plataforma nos ajudou a reduzir desperdícios e melhorar a organização da loja.”</p>
+                <p><strong>Wesley Bispo Santos Silva Cabral</strong><br>Proprietário da Wesley Clothes</p>
+            </section>
+
+        <!-- Carrossel de Clientes -->
+        <section class="clients">
+            <h2 class="section-title">Já cuidamos do estoque de muitos clientes, só falta você!</h2>
+            <p class="section-description">Quem usa SimpStock não troca de sistema. Confira algumas empresas que confiam em nós!</p>
+            <div class="carousel">
+                <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+                <div class="carousel-images">
+                    <img src="src/imagens/Botinario.jpg" alt="O Botinario" class="client-logo">
+                    <img src="src/imagens/rappy.jpg" alt="Rappy" class="client-logo">
+                    <img src="src/imagens/googol.jpg" alt="Googol" class="client-logo">
+                    <img src="src/imagens/linked.jpg" alt="Linked Out">
+                    <img src="src/imagens/clothes.jpg" alt="Wesley Clothes">
+                    <img src="src/imagens/marca 6.jpg" alt="Marca 6">
+                </div>
+                <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+            </div>
+            <a href="src/Login.html" class="cta-button">Quero fazer parte também!</a>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 SimpStock. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
